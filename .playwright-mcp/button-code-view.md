@@ -1,0 +1,126 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a button component
+            - img [ref=e58]
+          - generic [ref=e81]:
+            - img [ref=e84]
+            - generic [ref=e89]:
+              - generic [ref=e90]:
+                - img [ref=e92]
+                - generic [ref=e95]: Creating App.jsx
+              - separator [ref=e96]
+              - paragraph [ref=e98]: "Now let me create the Button component:"
+              - generic [ref=e99]:
+                - img [ref=e101]
+                - generic [ref=e104]:
+                  - text: Creating Button.jsx
+                  - generic [ref=e105]: in /components
+              - separator [ref=e106]
+              - generic [ref=e107]:
+                - paragraph [ref=e108]: "Done! Created a Button component with:"
+                - list [ref=e109]:
+                  - listitem [ref=e110]:
+                    - strong [ref=e111]: 5 variants
+                    - text: ": primary, secondary, accent, ghost, danger"
+                  - listitem [ref=e112]:
+                    - strong [ref=e113]: 3 sizes
+                    - text: ": sm, md, lg"
+                  - listitem [ref=e114]:
+                    - strong [ref=e115]: States
+                    - text: ": disabled, loading"
+                  - listitem [ref=e116]:
+                    - strong [ref=e117]: Effects
+                    - text: ": gradient backgrounds, colored shadows, hover scale, smooth transitions"
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [ref=e35]
+          - tab "Code" [selected] [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - generic [ref=e120]:
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128] [cursor=pointer]:
+              - img [ref=e129]
+              - img [ref=e131]
+              - generic [ref=e133]: components
+            - generic [ref=e136] [cursor=pointer]:
+              - img [ref=e137]
+              - generic [ref=e142]: Button.jsx
+          - generic [ref=e144] [cursor=pointer]:
+            - img [ref=e145]
+            - generic [ref=e150]: App.jsx
+        - separator [ref=e151]
+        - code [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e159]:
+              - generic [ref=e450]:
+                - generic [ref=e451] [cursor=pointer]: 
+                - generic [ref=e452]: "1"
+              - generic [ref=e164]: "2"
+              - generic [ref=e454]: "3"
+              - generic [ref=e456]: "4"
+              - generic [ref=e458]: "5"
+              - generic [ref=e460]: "6"
+              - generic [ref=e462]: "7"
+              - generic [ref=e464]: "8"
+              - generic [ref=e465]:
+                - generic [ref=e466] [cursor=pointer]: 
+                - generic [ref=e467]: "9"
+              - generic [ref=e191]: "10"
+              - generic [ref=e193]: "11"
+              - generic [ref=e468]:
+                - generic [ref=e469] [cursor=pointer]: 
+                - generic [ref=e470]: "12"
+              - generic [ref=e198]: "13"
+              - generic [ref=e201]: "14"
+              - generic [ref=e204]: "15"
+              - generic [ref=e483]: "16"
+            - generic [ref=e386]:
+              - generic [ref=e560]: "export default function Button({"
+              - generic [ref=e562]: children,
+              - generic [ref=e564]: variant = 'primary',
+              - generic [ref=e566]: size = 'md',
+              - generic [ref=e568]: disabled = false,
+              - generic [ref=e570]: isLoading = false,
+              - generic [ref=e572]: className = '',
+              - generic [ref=e574]: ...props
+              - generic [ref=e576]: "}) {"
+              - generic [ref=e578]: const baseStyles = 'font-semibold rounded-xl
+              - generic [ref=e581]: "const variants = {"
+              - generic [ref=e583]: "primary: 'bg-gradient-to-r from-purple-500"
+              - generic [ref=e585]: to-pink-500 text-white shadow-lg
+              - generic [ref=e587]: "secondary: 'bg-gradient-to-r from-blue-500"
+              - generic [ref=e589]: to-cyan-500 text-white shadow-lg shadow-blue-500/
+              - generic [ref=e591]: "accent: 'bg-gradient-to-r from-amber-400"
+              - generic [ref=e593]: to-orange-500 text-slate-900 font-bold shadow-lg
+              - generic [ref=e595]: transition-all duration-300 flex items-center
+              - generic [ref=e597]: justify-center gap-2 relative overflow-hidden
+              - generic [ref=e599]: group';
+              - generic [ref=e601]: shadow-purple-500/50 hover:shadow-xl
+              - generic [ref=e603]: hover:shadow-purple-500/75 hover:scale-105
+              - generic [ref=e605]: active:scale-95',
+              - generic [ref=e607]: 50 hover:shadow-xl hover:shadow-blue-500/75
+              - generic [ref=e609]: hover:scale-105 active:scale-95',
+              - generic [ref=e611]: shadow-amber-500/50 hover:shadow-xl
+              - generic [ref=e613]: hover:shadow-amber-500/75 hover:scale-105
+              - generic [ref=e615]: active:scale-95',
+              - generic [ref=e617]: "ghost: 'bg-transparent border-2 border-purple-400"
+              - generic [ref=e619]: text-purple-300 hover:bg-purple-500/10
+            - textbox "Editor content" [ref=e448]: ")} <span className={isLoading ? 'opacity-70' : ''}>{children}</span> </button> ); }"
+  - alert [ref=e51]
+  - generic [ref=e449]:
+    - alert
+    - alert

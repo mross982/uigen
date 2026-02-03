@@ -169,7 +169,6 @@ To give the AI new capabilities:
 3. Add client-side handler in `FileSystemContext.handleToolCall()` if UI needs to react
 
 ### Modifying File System Behavior
-#
 The VirtualFileSystem class is server-side only. Client-side operations go through FileSystemContext which wraps it. When changing file operations:
 
 1. Update `VirtualFileSystem` class (src/lib/file-system.ts)
